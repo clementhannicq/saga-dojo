@@ -1,0 +1,6 @@
+node_modules
+dist
+yarn-error.log
+coverage
+.vscode
+mock_modules/react-native-vector-icons/fontello

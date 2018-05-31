@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components LoginForm should render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    type="text"
+  />
+  <input
+    onChange={[Function]}
+    type="password"
+  />
+  <button>
+    Submit
+  </button>
+</form>
+`;

@@ -1,0 +1,17 @@
+import { Reducer } from "redux";
+import { I{{properCase name}}StoreType } from "../types/store";
+
+const DEFAULT_STATE: I{{properCase name}}StoreType = {
+};
+
+const {{name}}: Reducer<I{{properCase name}}StoreType> = (
+  state = DEFAULT_STATE,
+  action
+) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
+};
+
+export default {{name}};

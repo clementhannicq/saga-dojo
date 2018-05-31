@@ -1,0 +1,12 @@
+import { shallow } from "enzyme";
+import React from "react";
+import {{name}} from "../{{name}}";
+
+describe("Components", () => {
+  describe("{{name}}", () => {
+    it("should render", () => {
+      const wrapper = shallow(<{{name}} />);
+      expect(wrapper).toMatchSnapshot();
+    });
+  });
+});

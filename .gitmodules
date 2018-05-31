@@ -1,0 +1,3 @@
+[submodule "foodi"]
+	path = foodi
+	url = git@bitbucket.org:compassfrance/foodi.git
